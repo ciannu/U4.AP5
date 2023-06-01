@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="598.0" prefWidth="875.0" style="-fx-background-color: #a2cffb;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alltraz.InterfazEmpresasController">
+   <children>
+      <ImageView fitHeight="601.0" fitWidth="881.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/fondoDerecha.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="471.0" fitWidth="373.0" layoutX="502.0" layoutY="249.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Alltraz__1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Line endX="33.199981689453125" endY="509.29290771484375" layoutX="362.0" layoutY="90.0" startX="33.199981689453125" startY="-89.99999237060547" />
+      <ImageView fx:id="imageView" fitHeight="208.0" fitWidth="373.0" layoutX="14.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="232.0" fitWidth="300.0" layoutX="507.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/boton-web.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="232.0" fitWidth="300.0" layoutX="507.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/boton-web.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="542.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AÑADIR PRODUCTO" wrappingWidth="146.49658203125">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="536.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOTIFICAR PRODUCTO" wrappingWidth="173.49658203125">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="86.0" fitWidth="44.0" layoutX="700.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/mas.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="709.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/usuario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="57.0" layoutX="751.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/EMOJI.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="478.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿QUE DESEA HACER?">
+         <font>
+            <Font name="Agency FB" size="45.0" />
+         </font>
+      </Text>
+      <Button fx:id="notificarProducto" layoutX="506.0" layoutY="365.0" mnemonicParsing="false" onAction="#click_notificarProducto" prefHeight="64.0" prefWidth="238.0" style="-fx-background-color: tranparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="añadirProducto" layoutX="506.0" layoutY="172.0" mnemonicParsing="false" onAction="#click_añadirProducto" prefHeight="64.0" prefWidth="238.0" style="-fx-background-color: tranparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

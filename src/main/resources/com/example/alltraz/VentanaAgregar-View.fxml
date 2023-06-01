@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" prefHeight="598.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alltraz.VentanaAgregarController">
+   <children>
+      <ImageView fitHeight="598.0" fitWidth="875.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Diseño%20sin%20título.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="354.0" fitWidth="450.0" layoutX="230.0" layoutY="121.0" opacity="0.07" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Miproyecto.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ID" layoutX="155.0" layoutY="158.0" />
+      <TextField fx:id="CIF" layoutX="545.0" layoutY="158.0" />
+      <TextField fx:id="PASSWORD" layoutX="363.0" layoutY="321.0" />
+      <Text fill="WHITE" layoutX="136.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOMBRE DE LA EMPRESA">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="604.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C.I.F">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="393.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="325.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGREGAR EMPRESA">
+         <font>
+            <Font name="Agency FB" size="38.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Button fx:id="LISTO" blendMode="COLOR_BURN" layoutX="380.0" layoutY="520.0" mnemonicParsing="false" onAction="#btn_LISTO" prefHeight="26.0" prefWidth="114.0" text="LISTO">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="304.0" fitWidth="68.0" layoutX="767.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/flecha.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ATRAS" layoutX="763.0" layoutY="523.0" mnemonicParsing="false" onAction="#click_ATRAS" prefHeight="45.0" prefWidth="76.0" style="-fx-background-color: TRANSPARENT;" />
+      <TextField fx:id="txtRuta" layoutX="308.0" layoutY="452.0" prefHeight="26.0" prefWidth="389.0" />
+      <Text fill="WHITE" layoutX="60.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSERTE LA RUTA DE LA IMAGEN">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="RUTA" blendMode="COLOR_BURN" layoutX="710.0" layoutY="449.0" mnemonicParsing="false" onAction="#btn_Ruta" prefHeight="30.0" prefWidth="46.0" text="...">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

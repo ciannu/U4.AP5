@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="598.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alltraz.VentanaModificarController">
+   <children>
+      <ImageView fitHeight="598.0" fitWidth="875.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/degradado%20centro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="354.0" fitWidth="450.0" layoutX="240.0" layoutY="131.0" opacity="0.07" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Miproyecto.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="352.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOMBRE DE LA EMPRESA">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NombreEmpresa" alignment="CENTER" layoutX="372.0" layoutY="206.0" />
+      <Text fill="WHITE" layoutX="431.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C.I.F">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="CIF" alignment="CENTER" layoutX="372.0" layoutY="295.0" />
+      <Text fill="WHITE" layoutX="404.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="PASSWORD" alignment="CENTER" layoutX="373.0" layoutY="380.0" />
+      <Button fx:id="LISTO" blendMode="COLOR_BURN" layoutX="489.0" layoutY="533.0" mnemonicParsing="false" onAction="#btn_LISTO" prefHeight="26.0" prefWidth="114.0" text="LISTO">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="304.0" fitWidth="68.0" layoutX="777.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/flecha.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ATRAS" layoutX="773.0" layoutY="533.0" mnemonicParsing="false" onAction="#click_ATRAS" prefHeight="45.0" prefWidth="76.0" style="-fx-background-color: TRANSPARENT;" />
+      <Text fill="WHITE" layoutX="146.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INTRODUCE PRIMERO EL ID QUE QUIERES MODIFICAR">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ID" alignment="CENTER" blendMode="COLOR_BURN" layoutX="588.0" layoutY="55.0" />
+      <Button fx:id="BuscarId" blendMode="COLOR_BURN" layoutX="289.0" layoutY="533.0" mnemonicParsing="false" onAction="#btn_BuscarID" prefHeight="26.0" prefWidth="114.0" text="BUSCAR ID">
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

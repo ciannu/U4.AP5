@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="371.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alltraz.AgregarCaracteristicasLlegadaController">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="610.0" layoutX="-31.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/fondoDerecha.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="getCaracteristicas" blendMode="COLOR_BURN" layoutX="30.0" layoutY="76.0" prefHeight="226.0" prefWidth="506.0">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="149.0" layoutY="37.0" text="Agregar características de la llegada">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="agregar" layoutX="246.0" layoutY="306.0" mnemonicParsing="false" onAction="#click_agregar" prefHeight="64.0" prefWidth="83.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="71.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/flecha-correcta.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

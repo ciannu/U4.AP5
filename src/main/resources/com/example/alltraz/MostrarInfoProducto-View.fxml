@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="598.0" prefWidth="875.0" style="-fx-background-color: #a1cffb;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alltraz.RegistroProductoController">
+   <children>
+      <ImageView fitHeight="603.0" fitWidth="876.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Diseño%20sin%20título.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="66.0" layoutX="438.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/envase.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="75.0" layoutX="763.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/ruta.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="67.0" layoutX="438.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/cosecha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="67.0" layoutX="126.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/semillas.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="120.0" layoutY="127.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="66.0" style="-fx-background-color: Transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="62.0" fitWidth="67.0" layoutX="544.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/manzana.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="432.0" layoutY="34.0" prefHeight="31.0" prefWidth="74.0" text="Manzana" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="315.0" layoutY="158.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="622.0" layoutY="157.0" startX="-100.0" />
+      <Line endX="69.7999267578125" endY="19.0" layoutX="723.0" layoutY="261.0" startX="69.7999267578125" startY="-54.0" />
+      <Line endX="100.0" layoutX="691.0" layoutY="281.0" startX="-163.800048828125" />
+      <TextField alignment="TOP_LEFT" blendMode="COLOR_BURN" layoutX="120.0" layoutY="390.0" prefHeight="167.0" prefWidth="675.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <Line endX="100.0" layoutX="315.0" layoutY="280.0" startX="-114.0" />
+      <ImageView fitHeight="74.0" fitWidth="127.0" layoutX="45.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/mercadona_integration.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="434.0" layoutY="126.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="66.0" style="-fx-background-color: Transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="752.0" layoutY="105.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="81.0" style="-fx-background-color: Transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="434.0" layoutY="249.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="66.0" style="-fx-background-color: Transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Line endX="-124.5" endY="48.0" layoutX="325.0" layoutY="290.0" startX="-124.5" startY="-9.5" />
+      <ImageView fitHeight="59.0" fitWidth="40.0" layoutX="752.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/pregunta.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="138.0" layoutY="350.0" prefHeight="31.0" prefWidth="127.0" text="Características:" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="747.0" layoutY="336.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="51.0" style="-fx-background-color: Transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
